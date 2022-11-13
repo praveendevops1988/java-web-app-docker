@@ -1,4 +1,4 @@
-nnode{
+node{
       def buildNumber = BUILD_NUMBER
    stage("Git Clone"){
         git url: ' https://github.com/sandeepdurai/java-web-app-docker.git',branch: 'master'
